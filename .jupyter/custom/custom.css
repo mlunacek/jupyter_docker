@@ -1,0 +1,186 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file in IPython
+
+
+*/
+
+.notebook_app #header {
+  -webkit-box-shadow: None; 
+  box-shadow: None;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: rgba(119, 119, 119, 0.14);
+}
+
+#kernel_indicator .kernel_indicator_name {
+   color: rgba(119, 119, 119, 0.14);
+}
+
+#kernel_indicator{
+   border-left: None;
+}
+
+#site {
+    background-color: #fff;
+}
+
+#notebook-container{
+    max-width: 1024px;
+    -webkit-box-shadow: None;
+    box-shadow: None;
+}
+
+#menubar .navbar-default{
+    background-color: #fff;
+}
+.navbar{
+    border: None;
+}
+
+.navbar-default {
+  background-color: "white";
+  border-color: None;
+}
+
+.terminal-app #site{
+    background-color: rgba(10, 10, 10, 0.85);
+}
+
+#header #header-container {
+  visibility: hidden;
+}
+
+.rendered_html img {
+    display: inline-block;
+}
+
+/* like DataBricks */
+
+div.cell{
+    border: 1px solid;
+    border-color: transparent;
+}
+
+div.cell:hover{
+    border: 1px solid;
+    border-color: #e6e8ea;
+}
+
+.code_cell div.input_prompt { 
+    visibility: hidden;
+    text-align:right;
+    overflow:hidden;
+    text-indent: -500px;
+    padding-top: 10px;
+    padding-right:10px;
+    width: 30px;
+}
+.text_cell div.prompt{
+    width 1px;
+    padding: 0;
+    padding-top: 10px;
+
+}
+
+.code_cell div.input_prompt:after { 
+    content: ">";
+    /* direction:  rtl; */
+    visibility: visible;
+    width: 30px;
+    text-align:right;
+    font-weight: bold;
+    color: #ccc6b6;
+    /* float: left; */
+     /* margin-right: -2px; */
+    
+}
+
+.edit_mode div.cell.selected {
+    border-color: darkgrey;
+}
+
+.prompt{
+    min-width: 0px;
+}
+
+div.output_wrapper{
+    margin-top: 5px;
+}
+
+div.output_area pre {
+    color: #555;
+}
+
+div.input_area{
+   padding-left: 5px;
+   border: 1px solid;
+   /* border-color: white; */
+   border-color: lightgrey;
+   /* background-color: white; */
+}
+
+.CodeMirror {
+    background-color: #fafafa;
+    /* background-color: white; */
+}
+
+.CodeMirror {
+  height: auto;
+  min-height: 20px;
+  font-family: "Source Code Pro","Menlo",monospace;
+  font-size: 13px;
+  line-height: 19px;
+  color: #333;
+  padding-bottom: 1px;
+  padding-top: 5px;
+}
+
+/* from DataBricks */
+
+.rendered_html h1 {
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 200;
+    line-height: 36px;
+    font-size: 33px
+}
+
+.rendered_html h2,h2 .job-name {
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 200;
+    line-height: 30px;
+    font-size: 27px
+}
+
+.rendered_html h3 {
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 200;
+    line-height: 24px;
+    font-size: 22px
+}
+
+.rendered_html h4 {
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 200;
+    line-height: 21px;
+    font-size: 18px
+}
+
+
+.rendered_html h5 {
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 200;
+    line-height: 19px;
+    font-size: 16px
+}
+
+.rendered_html p {
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 200;
+    line-height: 19px;
+    font-size: 16px
+}
